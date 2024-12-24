@@ -29,10 +29,10 @@ function HomePage(){
                     <a href = "https://google.com" target = "_blank">
                         <img src = {resumeIcon}/>
                     </a>
-                    <a href = "https://google.com" target = "_blank">
+                    <a href = "https://www.linkedin.com/in/rachel-huang-b26211216/" target = "_blank">
                         <img src = {linkedinIcon} id = "linkedin-icon"/>
                     </a>
-                    <a href = "https://google.com" target = "_blank">
+                    <a href = "https://github.com/rrachelhuangg" target = "_blank">
                         <img src = {githubIcon}/>
                     </a>
                 </div>
