@@ -1,16 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../index.css";
 import resumeIcon from "../assets/images/resume.png";
 import linkedinIcon from "../assets/images/linkedin.png";
 import githubIcon from "../assets/images/github.png";
 
 function HomePage(){
+    useEffect(()=>{
+        const targetText = "Hello! I'm Rachel.";
+        const letters = "α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω ! @ # $ % ^ &".split(" ");
+        const element = document.getElementById ("name");
+        if(element){
+            const scrambleText = targetText.split("").map(()=>letters[Math.floor(Math.random()*letters.length)]);
+            element.textContent = scrambleText;
+            let index = 0;
+            const unscrambleLetter = () => {
+                if(index < targetText.length){
+                    const current = targetText.split("").map((char, i)=>i<=index?targetText[i]:letters[Math.floor(Math.random()*letters.length)]).join("");
+                    element.textContent = current;
+                    setTimeout(()=>{
+                        index++;
+                        unscrambleLetter();
+                    }, 50);
+                }
+            }; 
+            unscrambleLetter();
+        }
+    }, []);
     return(
         <div id = "card">
             <div id = "top-rectangle">
-                <div id = "name">
-                    Hello! I'm Rachel.
-                </div>
+                <div id = "name"></div>
             </div>
             <div id = "bottom-rectangle">
                 <div className = "description">
