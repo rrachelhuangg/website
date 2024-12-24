@@ -26,7 +26,7 @@ function HomePage(){
                 You can learn more about me at the links below, and feel free to contact me at rhuang03@wm.edu!
                 </div>
                 <div id = "social-icons">
-                    <a href = "https://drive.google.com/file/d/169Fvi4CkB-xRD-d3vWNMZDCI617uyDpX/view?usp=sharing" target = "_blank">
+                    <a href = "https://drive.google.com/file/d/14HHbadnG9c69UmuNF7i3ZLoBCKyB68n4/view?usp=sharing" target = "_blank">
                         <img src = {resumeIcon}/>
                     </a>
                     <a href = "https://www.linkedin.com/in/rachel-huang-b26211216/" target = "_blank">
