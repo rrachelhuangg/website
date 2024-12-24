@@ -1,5 +1,8 @@
 import React from "react";
 import "../index.css";
+import resumeIcon from "../assets/images/resume.png";
+import linkedinIcon from "../assets/images/linkedin.png";
+import githubIcon from "../assets/images/github.png";
 
 function HomePage(){
     return(
@@ -21,6 +24,17 @@ function HomePage(){
                 </div>
                 <div className = "description">
                 You can learn more about me at the links below, and feel free to contact me at rhuang03@wm.edu!
+                </div>
+                <div id = "social-icons">
+                    <a href = "https://google.com" target = "_blank">
+                        <img src = {resumeIcon}/>
+                    </a>
+                    <a href = "https://google.com" target = "_blank">
+                        <img src = {linkedinIcon} id = "linkedin-icon"/>
+                    </a>
+                    <a href = "https://google.com" target = "_blank">
+                        <img src = {githubIcon}/>
+                    </a>
                 </div>
             </div>
         </div>
