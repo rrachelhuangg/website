@@ -39,10 +39,7 @@ function HomePage(){
                 I am currently researching SVBRDF image diffusion models and the ZX-calculus quantum optimization method as an undergraduate researcher at William & Mary. I was selected to represent the W&M Department of Computer Science at the 2024 undergraduate research fair for the latter optimization research.
                 </div>
                 <div className = "description">
-                This summer, I will be interning at Black Cape, Inc. as a Software Engineering Intern, where I previously interned last summer and am continuing part-time work.
-                </div>
-                <div className = "description">
-                I also work part-time for OSLC in Williamsburg, serving as their musician and supplying music with their grand piano and pipe organ. I have worked as a part-time musician for the past 7 years, ever since I received a piano scholarship for the American Guild of Organists.
+                This summer, I will be interning at Black Cape, Inc. as a Software Engineering Intern, as well as continuing my Monroe Scholar funded quantum optimization research.
                 </div>
                 <div className = "description">
                 You can learn more about me at the links below, and feel free to contact me at rhuang03@wm.edu!
