@@ -44,7 +44,7 @@ function HomePage(){
                 <div className = "description">
                 You can learn more about me at the links below, and feel free to contact me at rhuang03@wm.edu!
                 </div>
-                <div id = "social-icons">
+                {/* <div id = "social-icons">
                     <a href = "https://drive.google.com/file/d/1eRf6NYuO6vVu0S23e2ja6PXjy49UcE59/view?usp=sharing" target = "_blank">
                         <img src = {resumeIcon}/>
                     </a>
@@ -52,6 +52,17 @@ function HomePage(){
                         <img src = {linkedinIcon} id = "linkedin-icon"/>
                     </a>
                     <a href = "https://github.com/rrachelhuangg" target = "_blank">
+                        <img src = {githubIcon}/>
+                    </a>
+                </div> */}
+                <div id = "social-icons">
+                    <a href = "" target = "_blank">
+                        <img src = {resumeIcon}/>
+                    </a>
+                    <a href = "" target = "_blank">
+                        <img src = {linkedinIcon} id = "linkedin-icon"/>
+                    </a>
+                    <a href = "" target = "_blank">
                         <img src = {githubIcon}/>
                     </a>
                 </div>
