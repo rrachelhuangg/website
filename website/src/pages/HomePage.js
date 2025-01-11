@@ -36,7 +36,7 @@ function HomePage(){
                 Welcome to my page! I'm currently a student at William & Mary studying computer science and applied mathematics. My interests center around machine learning, quantum computing, and computer architecture. 
                 </div>
                 <div className = "description">
-                I am currently contributing to the LLM apps and data pipelines of Black Cape, Inc where I worked full-time as a Software Engineering Intern last summer. I am also researching SVBRDF image diffusion models
+                I am currently building features for the LLM apps and data pipelines of Black Cape, Inc where I worked full-time as a Software Engineering Intern last summer. I am also researching SVBRDF image diffusion models
                 as an undergraduate researcher at William & Mary, running experiments with the Matfusion image diffusion model with the goal of generating tileable SVBRDFs.
                 </div>
                 <div className = "description">
