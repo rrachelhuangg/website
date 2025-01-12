@@ -43,7 +43,10 @@ function HomePage(){
                     I love exploring new technologies and projects and will often spend hours tinkering with a new idea. I am always open to exploring new opportunities, so feel free to contact me at rhuang03@wm.edu!   
                 </div>
                 <div className = "description">
-                    In my free time, I am probably reading my growing collection of Marvel comics or watching an action movie. 
+                    In my free time, I am probably reading my growing collection of Marvel comics or watching a movie. 
+                </div>
+                <div className = "description">
+
                 </div>
                 {/* <div className = "description">
                 This summer, I will be interning at Black Cape, Inc. as a Software Engineering Intern, as well as continuing my Monroe Scholar funded quantum optimization research.

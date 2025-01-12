@@ -1,16 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-import {HashRouter as Router, Route, Routes} from "react-router-dom";
+import "./index.css";
+import {HashRouter, Route, Routes, Link} from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import ProjectsPage from './pages/ProjectsPage';
 
-function App() {
+const App = () => {
   return (
-    <Router>
+    <HashRouter id = "nav-bar">
+      <nav>
+        <ul>
+          <li>
+            <Link to = "/">About Me</Link>
+          </li>
+          <li>
+            <Link to = "/projects">Projects</Link>
+          </li>
+        </ul>
+      </nav>
       <Routes>
         <Route path = "/" element={<HomePage/>}/>
+        <Route path = "/projects" element={<ProjectsPage/>}/>
       </Routes>
-    </Router>
+    </HashRouter>
   );
-}
+};
 
 export default App;
