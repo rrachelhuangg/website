@@ -5,17 +5,13 @@ import ProjectsPage from './pages/ProjectsPage';
 
 const App = () => {
   return (
-    <HashRouter id = "nav-bar">
-      <nav>
-        <ul>
-          <li>
-            <Link to = "/">About Me</Link>
-          </li>
-          <li>
-            <Link to = "/projects">Projects</Link>
-          </li>
-        </ul>
-      </nav>
+    <HashRouter className = "nav-bar">
+      <span>
+        <Link to = "/" className = "nav-button">About Me</Link>
+      </span>
+      <span>
+        <Link to = "/projects" className = "nav-button">Projects</Link>
+      </span>
       <Routes>
         <Route path = "/" element={<HomePage/>}/>
         <Route path = "/projects" element={<ProjectsPage/>}/>
