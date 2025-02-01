@@ -16,7 +16,7 @@ function DatasetPage(){
             </div>
             <div id = "bottom-rectangle">
                 <div className = "description">
-                    <video src = {curr_page_vid} width = "725" height = "400" controls/>
+                    <video src = {curr_page_vid} id = "curr-page-video" controls/>
                     <div className = "inner-description">
                         <ul>
                             <li>
