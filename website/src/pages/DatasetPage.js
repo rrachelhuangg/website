@@ -31,12 +31,6 @@ function DatasetPage(){
                             <li>
                                 Restructured and standardized spreadsheet data in Firebase
                             </li>
-                            <li>
-                                <div className = "click-div" onClick={handleClick}> 
-                                    Previous iteration on front-end
-                                    {open && <div><img src={prev_figma_icon} id = "prev-figma-image"/></div>}
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
