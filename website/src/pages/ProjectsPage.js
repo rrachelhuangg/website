@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import {Link} from "react-router-dom";
 import "../index.css";
 import presentationIcon from "../assets/images/presentation.jpg";
 
@@ -15,6 +16,14 @@ function ProjectsPage(){
             </div>
             <div id = "bottom-rectangle">
                 <ul>
+                    <li>
+                        <div className = "description">
+                            <Link to = "/dataset" className = "nav-button">Global Americas Data Management Page</Link>
+                            <div className = "inner-description">
+                                Built full-stack data management page for the Global Americas Research Lab at William & Mary.
+                            </div>
+                        </div>
+                    </li>
                     <li>
                         <div className = "description">
                             <div className = "click-div" onClick={handleClick}> 

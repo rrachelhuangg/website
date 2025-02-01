@@ -2,6 +2,7 @@ import "./index.css";
 import {HashRouter, Route, Routes, Link} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProjectsPage from './pages/ProjectsPage';
+import DatasetPage from "./pages/DatasetPage";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path = "/" element={<HomePage/>}/>
         <Route path = "/projects" element={<ProjectsPage/>}/>
+        <Route path = "/dataset" element = {<DatasetPage/>}/>
       </Routes>
     </HashRouter>
   );
