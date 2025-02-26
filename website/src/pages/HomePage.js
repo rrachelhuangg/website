@@ -82,6 +82,9 @@ function HomePage(){
                         </div>
                     </li>
                 </ul>
+                <div className = "description">
+                    My favorite things are buffalo chicken, cooked seaweed, buldak noodles, and the shrimp and lobster family.
+                </div>
                 {/* <div id = "social-icons">
                     <a href = "https://drive.google.com/file/d/1eRf6NYuO6vVu0S23e2ja6PXjy49UcE59/view?usp=sharing" target = "_blank">
                         <img src = {resumeIcon}/>
