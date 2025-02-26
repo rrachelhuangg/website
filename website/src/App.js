@@ -7,12 +7,12 @@ import DatasetPage from "./pages/DatasetPage";
 const App = () => {
   return (
     <HashRouter className = "nav-bar">
-      <span>
+      {/* <span>
         <Link to = "/" className = "nav-button">About Me</Link>
       </span>
       <span>
         <Link to = "/projects" className = "nav-button">Projects</Link>
-      </span>
+      </span> */}
       <Routes>
         <Route path = "/" element={<HomePage/>}/>
         <Route path = "/projects" element={<ProjectsPage/>}/>

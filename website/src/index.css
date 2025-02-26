@@ -6,21 +6,21 @@ html, body{
   align-items: center;
   margin: auto;
   min-height:100vh;
-  background-color: rgb(0, 0, 0);
+  background-color: #042740;
   font-family:'JetBrains Mono';
-  color: rgb(255, 255, 255);
+  color: rgb(212, 212, 212);
   overflow:auto;
 }
 
 #card{
-  width:45vw;
+  width:60vw;
   display:flex;
   flex-direction: column;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(212, 212, 212);
 }
 
 #top-rectangle{
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(212, 212, 212);
   width:100%;
   font-size:150%;
   padding:3% 3% 3% 3%;
@@ -29,7 +29,7 @@ html, body{
 
 #bottom-rectangle{
   width:100%;
-  font-size:80%;
+  font-size:90%;
   padding:3% 3% 3% 3%;
   box-sizing: border-box;
   display: flex;
@@ -44,10 +44,10 @@ html, body{
 
 a{
   text-decoration: underline;
-  color:white;
+  color:rgb(212, 212, 212);
 }
 
-/* img{
+img{
   width:25px;
   margin-right:1.9%;
   aspect-ratio: 1/1;
@@ -55,7 +55,7 @@ a{
 
 img:hover{
   filter:brightness(2000%);
-} */
+}
 
 #presentation-image{
   width:50%;
@@ -79,6 +79,13 @@ img:hover{
 .click-div{
   cursor: pointer;
   text-decoration: underline;
+}
+
+#social-icons{
+  display: flex;
+  flex-direction: row;
+  gap:8px;
+  justify-content: center;
 }
 
 @media(max-width:480px){
