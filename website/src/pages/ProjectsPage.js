@@ -11,7 +11,7 @@ function ProjectsPage(){
                 <div className = "description">
                     <a href="https://www.sprint.dev/projects/331b0fa1-47f8-4f67-bdb2-931ca2e157cb" target="_blank" className = "nav-button">TransparentGPT</a>
                     <div className = "inner-description">
-                        transparent chatgpt with exposed sources and customization panel
+                        transparent chatbot with exposed sources and customization panel
                     </div>
                 </div>
             </div>
