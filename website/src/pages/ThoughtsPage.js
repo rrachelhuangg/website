@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
 import {Link} from "react-router-dom";
-import "../index.css";
 
 function ThoughtsPage(){
     return(
@@ -13,8 +12,8 @@ function ThoughtsPage(){
                 <div className = "description">
                     my thoughts on whatever i'm thinking
                 </div>
-                <div className = "description">
-                    ...
+                <div className = "inner-description">
+                    <Link to="/thoughts/entry1">opinions on coffee</Link>
                 </div>
             </div>
         </div>
