@@ -6,7 +6,7 @@ html, body{
   align-items: center;
   margin: auto;
   min-height:100vh;
-  background-color: #042740;
+  background-color: #000000;
   font-family:'JetBrains Mono';
   color: rgb(212, 212, 212);
   overflow:auto;
@@ -16,21 +16,22 @@ html, body{
   width:60vw;
   display:flex;
   flex-direction: column;
-  border: 1px solid rgb(212, 212, 212);
+  border: 1px solid rgb(0, 0, 0);
 }
 
 #top-rectangle{
-  border-bottom: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid rgb(0, 0, 0);
   width:100%;
-  font-size:150%;
-  padding:3% 3% 3% 3%;
+  font-size:190%;
+  padding:3% 3% 1% 3%;
   box-sizing: border-box;
+  font-weight:700;
 }
 
 #bottom-rectangle{
   width:100%;
-  font-size:90%;
-  padding:3% 3% 3% 3%;
+  font-size:120%;
+  padding:2% 3% 3% 3%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -38,8 +39,12 @@ html, body{
 }
 
 .inner-description{
-  font-size:95%;
-  margin:1% 0 1% 0;
+  font-size:80%;
+  margin:1% 0 0% 0;
+}
+
+#buttons-video{
+  margin-top:2.75%;
 }
 
 a{

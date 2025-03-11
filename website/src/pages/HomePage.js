@@ -8,82 +8,23 @@ import "../index.css";
 import presentationIcon from "../assets/images/presentation.jpg";
 
 function HomePage(){
-    useEffect(()=>{
-        const targetText = "Hello! I'm Rachel.";
-        const letters = "α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω ! @ # $ % ^ &".split(" ");
-        const element = document.getElementById ("name");
-        if(element){
-            const scrambleText = targetText.split("").map(()=>letters[Math.floor(Math.random()*letters.length)]);
-            element.textContent = scrambleText;
-            let index = 0;
-            const unscrambleLetter = () => {
-                if(index < targetText.length){
-                    const current = targetText.split("").map((char, i)=>i<=index?targetText[i]:letters[Math.floor(Math.random()*letters.length)]).join("");
-                    element.textContent = current;
-                    setTimeout(()=>{
-                        index++;
-                        unscrambleLetter();
-                    }, 50);
-                }
-            }; 
-            unscrambleLetter();
-        }
-    }, []);
-    const [open, setOpen] = useState(false);
-    const handleClick = () => {
-        setOpen(!open);
-    }
     return(
         <div id = "card">
             <div id = "top-rectangle">
-                <div id = "name"></div>
+                <div id = "name">hello! i'm rachel huang.</div>
             </div>
             <div id = "bottom-rectangle">
                 <div className = "description">
-                Welcome to my page! I'm currently a student at William & Mary studying computer science and applied math. My interests center around machine learning, quantum computing, and computer architecture. 
+                i like building things for fun :)
                 </div>
                 <div className = "description">
-                I work at Black Cape, Inc in Arlington, Virginia, and conduct undergraduate research at William & Mary.
-                </div>
-                <div className = "description">
-                    <a href = "https://github.com/rrachelhuangg" target = "_blank"> 
-                        My recent projects:
-                    </a>
-                </div>
-                <ul>
-                    <li>
-                        <div className = "description">
-                            <Link to = "/dataset" className = "nav-button">Global Americas Data Management Page</Link>
-                            <div className = "inner-description">
-                                Built full-stack data management page for the Global Americas Research Lab at William & Mary.
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div className = "description">
-                            <div className = "click-div" onClick={handleClick}> 
-                                Literature Review of the ZX-calculus Quantum Optimization Method
-                            </div>
-                            {open && <div><img src={presentationIcon} id = "presentation-image"/></div>}
-                            <div className = "inner-description">
-                            Presented at the 2024 Fall Undergraduate Research Fair and &Hacks Hackathon.
-                            Selected as 1 of 2 students to represent the William & Mary Department of Computer Science at the 2024 Undergraduate Research Fair.
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div className = "description">
-                            <a href = "https://dl.acm.org/doi/pdf/10.1145/3573834.3574498" target = "_blank"> 
-                                Comparisons of Classic and Quantum String Matching Algorithms
-                            </a>
-                            <div className = "inner-description">
-                                Paper published by the 2022 4th International Conference on Advanced Information Science and System.
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <div className = "description">
-                    My favorite things are buffalo chicken, cooked seaweed, buldak noodles, and the shrimp and lobster family.
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/K32J2yVN-XI"
+                        title="Buttons Youtube Video"
+                        frameborder="0"
+                        id = "buttons-video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                    </iframe>
                 </div>
                 {/* <div id = "social-icons">
                     <a href = "https://drive.google.com/file/d/1eRf6NYuO6vVu0S23e2ja6PXjy49UcE59/view?usp=sharing" target = "_blank">
