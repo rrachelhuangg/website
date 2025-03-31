@@ -14,6 +14,12 @@ function ProjectsPage(){
                         transparent chatbot with exposed sources and customization panel
                     </div>
                 </div>
+                <div className = "description">
+                    <a href="https://devpost.com/software/draw-j3nxl2?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank" className = "nav-button">DoodleSpace - HooHacks2025 submission</a>
+                    <div className = "inner-description">
+                        microcontroller and sensor setup with data pipeline for rendering 3D vectors
+                    </div>
+                </div>
             </div>
         </div>
     );
