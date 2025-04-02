@@ -15,6 +15,9 @@ function ThoughtsPage(){
                 <div className = "inner-description">
                     <Link to="/thoughts/entry1">opinions on coffee</Link>
                 </div>
+                <div className = "inner-description">
+                    <Link to="/thoughts/entry2">why macs</Link>
+                </div>
             </div>
         </div>
     );

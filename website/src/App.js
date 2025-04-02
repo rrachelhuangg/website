@@ -5,6 +5,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import ThoughtsPage from './pages/ThoughtsPage';
 import LinksPage from './pages/LinksPage';
 import Entry1 from "./pages/thoughts/Entry1";
+import Entry2 from "./pages/thoughts/Entry2";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path = "/thoughts" element = {<ThoughtsPage/>}/>
         <Route path = "/links" element = {<LinksPage/>}/>
         <Route path = "/thoughts/entry1" element = {<Entry1/>}/>
+        <Route path = "/thoughts/entry2" element = {<Entry2/>}/>
       </Routes>
     </HashRouter>
   );
