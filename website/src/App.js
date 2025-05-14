@@ -16,6 +16,9 @@ const App = () => {
       <span>
         <Link to = "/projects" className = "nav-button">projects</Link>
       </span>
+      <span>
+        <Link to = "/links" className = "nav-button">links</Link>
+      </span>
       {/* <span>
         <Link to = "/thoughts" className = "nav-button">thoughts</Link>
       </span>
@@ -26,6 +29,7 @@ const App = () => {
         <Route path = "/" element={<HomePage/>}/>
         <Route path = "/projects" element={<ProjectsPage/>}/>
         <Route path = "/thoughts" element = {<ThoughtsPage/>}/>
+        {/* <Route path = "/links" element = {<LinksPage/>}/> */}
         <Route path = "/links" element = {<LinksPage/>}/>
         {/* <Route path = "/thoughts/entry1" element = {<Entry1/>}/>
         <Route path = "/thoughts/entry2" element = {<Entry2/>}/> */}
