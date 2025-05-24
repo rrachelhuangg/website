@@ -11,7 +11,7 @@ function ProjectsPage(){
                 <div className = "description">
                     <a href="https://rrachelhuangg.github.io/enigma/" target="_blank" className = "nav-button">The Enigma Machine</a>
                     <div className = "inner-description">
-                        implementation of the enigma encryption machine with animation and sounds
+                        implementation of the enigma encryption machine with animation and sound
                     </div>
                 </div>
                 <div className = "description">
