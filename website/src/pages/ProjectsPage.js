@@ -9,6 +9,12 @@ function ProjectsPage(){
             </div>
             <div id = "bottom-rectangle">
                 <div className = "description">
+                    <a href="https://rrachelhuangg.github.io/enigma/" target="_blank" className = "nav-button">The Enigma Machine</a>
+                    <div className = "inner-description">
+                        implementation of the enigma encryption machine with animation and sounds
+                    </div>
+                </div>
+                <div className = "description">
                     <a href="https://www.sprint.dev/projects/331b0fa1-47f8-4f67-bdb2-931ca2e157cb" target="_blank" className = "nav-button">TransparentGPT - 3rd Place at Rebuild AI Hackathon</a>
                     <div className = "inner-description">
                         transparent chatbot with exposed sources and customization panel
