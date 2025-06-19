@@ -35,7 +35,7 @@ html, body{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  gap:15px;
+  gap:25px;
 }
 
 .inner-description{
@@ -56,10 +56,6 @@ img{
   width:25px;
   margin-right:1.9%;
   aspect-ratio: 1/1;
-}
-
-img:hover{
-  filter:brightness(2000%);
 }
 
 #presentation-image{
@@ -86,22 +82,28 @@ img:hover{
   text-decoration: underline;
 }
 
-#social-icons{
+.description{
   display: flex;
   flex-direction: row;
-  gap:8px;
-  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.description img{
+  width: 50px;
+  height: auto;
+  align-items: stretch;
+  object-fit: contain;
+}
+
+.text-block{
+  display: flex;
+  flex-direction: column;
 }
 
 @media(max-width:480px){
   #card{
     width:85vw;
-  }
-  #social-icons{
-    display: flex;
-    flex-direction: row;
-    gap:8px;
-    justify-content: center;
   }
   .nav-bar{
     display: flex;
