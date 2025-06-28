@@ -2,10 +2,8 @@ import "./index.css";
 import {HashRouter, Route, Routes, Link} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProjectsPage from './pages/ProjectsPage';
-import ThoughtsPage from './pages/ThoughtsPage';
-import LinksPage from './pages/LinksPage';
-import Entry1 from "./pages/thoughts/Entry1";
-import Entry2 from "./pages/thoughts/Entry2";
+import AboutPage from './pages/AboutPage';
+import PublicationsPage from './pages/PublicationsPage';
 
 const App = () => {
   return (
@@ -16,23 +14,17 @@ const App = () => {
       <span>
         <Link to = "/projects" className = "nav-button">projects</Link>
       </span>
-      {/* <span>
-        <Link to = "/links" className = "nav-button">links</Link>
-      </span> */}
-      {/* <span>
-        <Link to = "/thoughts" className = "nav-button">thoughts</Link>
+      <span>
+        <Link to = "/about" className = "nav-button">work</Link>
       </span>
       <span>
-        <Link to = "/links" className = "nav-button">links</Link>
-      </span> */}
+        <Link to = "/publications" className = "nav-button">publications</Link>
+      </span>
       <Routes>
         <Route path = "/" element={<HomePage/>}/>
         <Route path = "/projects" element={<ProjectsPage/>}/>
-        {/* <Route path = "/thoughts" element = {<ThoughtsPage/>}/> */}
-        {/* <Route path = "/links" element = {<LinksPage/>}/> */}
-        {/* <Route path = "/links" element = {<LinksPage/>}/> */}
-        {/* <Route path = "/thoughts/entry1" element = {<Entry1/>}/>
-        <Route path = "/thoughts/entry2" element = {<Entry2/>}/> */}
+        <Route path = "/about" element={<AboutPage/>}/>
+        <Route path = "/publications" element={<PublicationsPage/>}/>
       </Routes>
     </HashRouter>
   );
