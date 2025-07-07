@@ -21,16 +21,7 @@ function AboutPage(){
                             May 2024 - Current
                         </div>
                         <div className = "inner-description">
-                        • Implemented APIs and debugging for government contracted defense products
-                        </div>
-                        <div className = "inner-description">
-                        • Implemented FastAPI endpoints and Kestra pipeline scripts to extend automated data ingestion and processing for data platform
-                        </div>
-                        <div className = "inner-description">
-                        • Implemented RAG techniques using Python and Langchain to improve context relevancy of HR chatbot
-                        </div>
-                        <div className = "inner-description">
-                        • Built a pipeline for Bluesky data
+                        • Working on government contracted defense products
                         </div>
                     </div>
                 </div>
@@ -51,7 +42,7 @@ function AboutPage(){
                     <div className="text-block">
                         <div className="nav-button">W&M Graphics Undergraduate Research</div>
                         <div className = "inner-description">
-                        • January 2024 - May 2025
+                        January 2024 - May 2025
                         </div>
                         <div className = "inner-description">
                         • Running experiments for SVBRDF image diffusion models, mentored by Professor Peers
@@ -63,7 +54,7 @@ function AboutPage(){
                     <div className="text-block">
                         <a href="https://aiclubwm.com/about" target="_blank" className = "nav-button">W&M AI Club Head of Project Development</a>
                         <div className = "inner-description">
-                        • June 2025 - Current
+                        June 2025 - Current
                         </div>
                         <div className = "inner-description">
                         • Building research opportunities database and usable full-stack application for W&M community
@@ -75,7 +66,7 @@ function AboutPage(){
                     <div className="text-block">
                         <a href="https://gdg.community.dev/gdg-on-campus-william-mary-williamsburg-united-states/" target="_blank" className = "nav-button">W&M Google Student Developer Club Project Lead and Core Team Consultant</a>
                         <div className = "inner-description">
-                        • October 2023 - April 2025
+                        October 2023 - April 2025
                         </div>
                         <div className = "inner-description">
                         • Implemented dataset viewer/management page for Global Americas Team
