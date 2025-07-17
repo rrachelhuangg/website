@@ -15,7 +15,7 @@ const App = () => {
         <Link to = "/projects" className = "nav-button">projects</Link>
       </span>
       <span>
-        <Link to = "/about" className = "nav-button">work</Link>
+        <Link to = "/about" className = "nav-button">experiences</Link>
       </span>
       <span>
         <Link to = "/publications" className = "nav-button">publications</Link>
