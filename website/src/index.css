@@ -218,6 +218,21 @@ iframe {
   }
   #buttons-video{
     margin-top:2.75%;
-    width:40%;
+  }
+  #stark-image {
+    width:30rem;
+    margin-left:6rem;
+    z-index:1000;
+    pointer-events: auto;
+  }
+  #spotify-embed {
+    width:15rem;
+    height:3rem;
+    margin:0;
+    padding:0;
+  }
+  #patatap-embed {
+    width:30rem;
+    margin:0;
   }
 }
