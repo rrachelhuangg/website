@@ -256,7 +256,9 @@ iframe {
     padding:0;
   }
   #patatap-embed {
-    width:18rem;
-    margin:0;
+    display: none;
+  }
+  #patatap-caption {
+    display: none;
   }
 }

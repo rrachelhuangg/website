@@ -53,7 +53,7 @@ function HomePage(){
                 </div>
                 <div className="section-container">
                     <div className="home-container">
-                        <div className="description">some patatap interactive beats</div>
+                        <div className="description" id="patatap-caption">some patatap interactive beats</div>
                         <div className="outline-container">
                             <iframe src="https://patatap.com/" id="patatap-embed" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
