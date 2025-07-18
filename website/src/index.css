@@ -213,7 +213,7 @@ iframe {
     border:1px solid #d6cab8;
     z-index: 2000;
     width:5rem;
-    font-size:0.75rem;
+    font-size:0.8rem;
     background-color: #fffafa;
   }
   #card{
@@ -231,9 +231,12 @@ iframe {
   }
   #buttons-video{
     margin-top:2.75%;
-    width:15rem;
+    width:17rem;
   }
   #stark-image {
+    display: none;
+  }
+  #holotable-caption {
     display: none;
   }
   #spotify-embed {
@@ -243,7 +246,7 @@ iframe {
     padding:0;
   }
   #patatap-embed {
-    width:15rem;
+    width:17rem;
     margin:0;
   }
 }

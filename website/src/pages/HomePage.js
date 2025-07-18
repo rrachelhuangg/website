@@ -39,7 +39,7 @@ function HomePage(){
                 </div>
                 <div className="section-container">
                     <div className="home-container">
-                        <div className="description">holotable of achievements</div>
+                        <div className="description" id="holotable-caption">holotable of achievements</div>
                         <img src={starkIcon} id="stark-image"/>
                     </div>
                 </div>
