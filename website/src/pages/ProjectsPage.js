@@ -8,16 +8,6 @@ function ProjectsPage(){
                 <div>projects</div>
             </div>
             <div id = "bottom-rectangle">
-                {/* <div className="section-container">
-                    <div className="home-container">
-                        <div className="outline-container">
-                            <div className="description"><a href="https://iotpacketpatrol.onrender.com/" target="_blank">IoTPacketPatrol - Google Cloud AI in Action hackathon, MongoDB track submission</a></div>
-                            <div className = "inner-description">
-                                    full-stack machine learning model and ui for analyzing iot network traffic data
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
                 <div className="section-container">
                     <div className="home-container">
                         <div className="outline-element">

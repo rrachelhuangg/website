@@ -19,7 +19,7 @@ function HomePage(){
             <div id = "bottom-rectangle">
                 <div className="section-container">
                     <div className="home-container">
-                        <div className="header">
+                        <div className="header" id="website-label">
                             welcome to rachel's portfolio!
                         </div>
                     </div>
