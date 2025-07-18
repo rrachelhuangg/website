@@ -231,22 +231,21 @@ iframe {
   }
   #buttons-video{
     margin-top:2.75%;
-    width:15rem;
+    width:10rem;
   }
   #stark-image {
     width:25rem;
-    margin-left:6rem;
     z-index:1000;
     pointer-events: auto;
   }
   #spotify-embed {
-    width:12.5rem;
-    height:2rem;
+    width:14rem;
+    height:4rem;
     margin:0;
     padding:0;
   }
   #patatap-embed {
-    width:15rem;
+    width:10rem;
     margin:0;
   }
 }
