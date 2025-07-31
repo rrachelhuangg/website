@@ -11,6 +11,16 @@ function ProjectsPage(){
                 <div className="section-container">
                     <div className="home-container">
                         <div className="outline-element">
+                            <div className="description"><a href="https://www.youtube.com/watch?v=v1FsujJONGA&list=PLesNU81GDLAkQa9BkA43vGn1VAFeSlPtq&index=2" target="_blank">W&M Research Database</a></div>
+                            <div className = "project-description">
+                                w&m-themed ui that is fully integrated with Firebase for storage and management/display of research position listings
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="section-container">
+                    <div className="home-container">
+                        <div className="outline-element">
                             <div className="description"><a href="https://rrachelhuangg.github.io/enigma/" target="_blank">The Enigma Machine</a></div>
                             <div className = "project-description">
                                 implementation of the enigma encryption machine with animation and sound
