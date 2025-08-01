@@ -95,6 +95,18 @@ body::before {
   margin-top:0.5rem;
 }
 
+.outline-container-spotify {
+  border: 1px solid #d6cab8;
+  padding:0.5rem;
+  margin-top:0.5rem;
+}
+
+.outline-container-patatap {
+  border: 1px solid #d6cab8;
+  padding:0.5rem;
+  margin-top:0.5rem;
+}
+
 .outline-element {
   display: flex;
   justify-content: center;
@@ -231,6 +243,12 @@ iframe {
     margin-top:0.5rem;
     width:18rem;
   }
+  .outline-container-spotify {
+    display: none;
+  }
+  .outline-container-patatap {
+    display: none;
+  }
   #card{
     width:85vw;
   }
@@ -242,7 +260,7 @@ iframe {
   }
   #buttons-video{
     margin-top:2.75%;
-    width:18rem;
+    width:15rem;
   }
   #stark-image {
     display: none;

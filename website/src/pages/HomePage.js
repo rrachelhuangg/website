@@ -46,7 +46,7 @@ function HomePage(){
                 <div className="section-container">
                     <div className="home-container">
                         <div className="description" id="spotify-caption">currently on repeat</div>
-                        <div className="outline-container">
+                        <div className="outline-container-spotify">
                             <iframe id="spotify-embed" src="https://open.spotify.com/embed/track/33vZRjxJScapmRShRJq8I0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ function HomePage(){
                 <div className="section-container">
                     <div className="home-container">
                         <div className="description" id="patatap-caption">some patatap interactive beats</div>
-                        <div className="outline-container">
+                        <div className="outline-container-patatap">
                             <iframe src="https://patatap.com/" id="patatap-embed" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
                     </div>
