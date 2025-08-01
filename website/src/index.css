@@ -129,7 +129,9 @@ body::before {
 }
 
 .second-video-container {
-  display: none;
+  margin-top:2.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 a{
@@ -263,6 +265,10 @@ iframe {
     justify-content: center;
   }
   #buttons-video{
+    margin-top:2.75%;
+    width:15rem;
+  }
+  #research-database-video{
     margin-top:2.75%;
     width:15rem;
   }

@@ -39,7 +39,13 @@ function HomePage(){
                     <div class="second-video-container">
                         <div class="outline-container">
                             <div className = "description">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/v1FsujJONGA?si=036hiskXiN0MW0oB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/v1FsujJONGA?si=036hiskXiN0MW0oB"
+                                    title="Research Database Youtube Video"
+                                    frameborder="0"
+                                    id = "research-database-video"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                                </iframe>
                             </div>
                         </div>
                     </div>
