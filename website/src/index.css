@@ -128,6 +128,10 @@ body::before {
   justify-content: center;
 }
 
+.second-video-container {
+  display: none;
+}
+
 a{
   text-decoration: underline;
   color:#70331E;
@@ -216,7 +220,7 @@ iframe {
     overflow-x:hidden;
     display: flex;
     justify-content: center;
-    gap:1rem;
+    gap:0.5rem;
   }
   #website-label {
     margin-top:2rem;
@@ -279,5 +283,9 @@ iframe {
   }
   #patatap-caption {
     display: none;
+  }
+  .second-video-container {
+    display: flex;
+    justify-content: center;
   }
 }
