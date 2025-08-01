@@ -37,7 +37,7 @@ function HomePage(){
                         </div>
                     </div>
                     <div class="second-video-container">
-                        <div class="outline-container">
+                        <div class="second-outline-container">
                             <div className = "description">
                                 <iframe width="560" height="315"
                                     src="https://www.youtube.com/embed/v1FsujJONGA?si=036hiskXiN0MW0oB"

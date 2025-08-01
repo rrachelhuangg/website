@@ -95,6 +95,12 @@ body::before {
   margin-top:0.5rem;
 }
 
+.second-outline-container {
+  border: 1px solid #d6cab8;
+  padding:0.5rem;
+  margin-top:0.5rem;
+}
+
 .outline-container-spotify {
   border: 1px solid #d6cab8;
   padding:0.5rem;
@@ -269,9 +275,10 @@ iframe {
     width:12.5rem;
   }
   #research-database-video{
-    margin-top:2.75%;
-    width:17.5rem;
-    height:7.5rem;
+    display: none;
+  }
+  .second-outline-container {
+    display: none;
   }
   #stark-image {
     display: none;
