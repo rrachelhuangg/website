@@ -1,13 +1,6 @@
 import React from "react";
 import "../index.css";
 
-window.onload = function() {
-    const bottomRectangle = document.getElementById('bottom-rectangle');
-    if(bottomRectangle){
-        bottomRectangle.scrollTop = 0;
-    }
-}
-
 function ProjectsPage(){
     return(
         <div id = "card">

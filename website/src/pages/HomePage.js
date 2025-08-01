@@ -45,7 +45,7 @@ function HomePage(){
                 </div>
                 <div className="section-container">
                     <div className="home-container">
-                        <div className="description">currently on repeat</div>
+                        <div className="description" id="spotify-caption">currently on repeat</div>
                         <div className="outline-container">
                             <iframe id="spotify-embed" src="https://open.spotify.com/embed/track/33vZRjxJScapmRShRJq8I0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>

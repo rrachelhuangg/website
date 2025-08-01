@@ -204,6 +204,7 @@ iframe {
     overflow-x:hidden;
     display: flex;
     justify-content: center;
+    gap:1rem;
   }
   #website-label {
     margin-top:2rem;
@@ -250,10 +251,10 @@ iframe {
     display: none;
   }
   #spotify-embed {
-    width:18rem;
-    height:5rem;
-    margin:0;
-    padding:0;
+    display: none;
+  }
+  #spotify-caption {
+    display: none;
   }
   #patatap-embed {
     display: none;
