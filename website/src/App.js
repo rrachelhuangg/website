@@ -8,7 +8,7 @@ import PublicationsPage from './pages/PublicationsPage';
 const App = () => {
   return (
     <HashRouter className = "nav-bar">
-      <span>
+      {/* <span>
         <Link to = "/" className = "nav-button">home</Link>
       </span>
       <span>
@@ -19,12 +19,12 @@ const App = () => {
       </span>
       <span>
         <Link to = "/publications" className = "nav-button">publications</Link>
-      </span>
+      </span> */}
       <Routes>
-        <Route path = "/" element={<HomePage/>}/>
-        <Route path = "/projects" element={<ProjectsPage/>}/>
+        <Route path = "/" element={<ProjectsPage/>}/>
+        {/* <Route path = "/projects" element={<ProjectsPage/>}/>
         <Route path = "/about" element={<AboutPage/>}/>
-        <Route path = "/publications" element={<PublicationsPage/>}/>
+        <Route path = "/publications" element={<PublicationsPage/>}/> */}
       </Routes>
     </HashRouter>
   );
