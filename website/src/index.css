@@ -292,6 +292,7 @@ iframe {
   #card{
     width:100vw;
     height: 100vh;
+    border-radius:0;
   }
   #bottom-rectangle{
     height:100vh;
