@@ -17,6 +17,13 @@ function ProjectsPage(){
                 <div className="section-container">
                     <div className="home-container">
                         <div className="outline-element">
+                            <div className="description"><a href="https://www.youtube.com/watch?v=qxNOZ_D9zpo&list=PLesNU81GDLAk_xs12hlGbokPJzU2uktZx" target="_blank">Build Compilations</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="section-container">
+                    <div className="home-container">
+                        <div className="outline-element">
                             <div className="description"><a href="https://www.youtube.com/watch?v=oNScYG4bWXg&list=PLesNU81GDLAkQa9BkA43vGn1VAFeSlPtq&index=2" target="_blank">W&M x AI Club Research Database</a></div>
                             {/* <div className = "project-description">
                                 w&m-themed ui that is fully integrated with Firebase for storage and management/display of research position listings

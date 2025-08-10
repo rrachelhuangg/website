@@ -74,7 +74,7 @@ body::before {
   flex-direction: column;
   height:35rem;
   overflow-y: scroll;
-  gap:3rem;
+  gap:2rem;
   /* background-color: #fffcf6; */
   background-color: rgb(33, 93, 136);
   opacity:1;
